@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>homework</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="html/text; charset=utf-8"/>
+    <script type="text/javascript">
+    var $ = function(id){
+        return document.getElementById(id);
+    };
+    var nishishi = $("nishishi")
+    nishishi.onclick = function(){
+        var feifeifei = $("feifeifei")
+        var text = $("feifeifei").value
+        var anniu = $("anniu")
+        var reg = /^[a-zA-Zxa0-xff_][0-9a-zA-Zxa0-xff_]{3,15}$/;
+        var reg1 = /^[a-zA-Zxa0-xff_][0-9a-zA-Zxa0-xff_]{0,2}$/;
+        var reg2 = /^[a-zA-Zxa0-xff_][0-9a-zA-Zxa0-xff_]{16,999999999}$/;
+        if(reg1.test(text)){
+            feifeifei.style.borderColor = "#EA2000";
+            anniu.style.color = "#EA2000";
+            anniu.innerHTML = "输入长度不合法";
+        }
+        else if(reg.test(text)){
+            feifeifei.style.borderColor = "green";
+            anniu.style.color = "green";
+            anniu.innerHTML = "输入正确";
+        }
+        else if(reg2.test(text)){
+            feifeifei.style.borderColor = "#EA2000";
+            anniu.style.color = "#EA2000";
+            anniu.innerHTML = "输入长度不合法";
+        }
+        else{
+            feifeifei.style.borderColor = "#EA2000";
+            anniu.style.color = "#EA2000";
+            anniu.innerHTML = "姓名不能为空";
+
+        }
+    }
+</script>
+</head>
+<body>
+    <div class="papapa">
+        <div class="ppp">
+            名称
+            <input name="number" type="text" id="feifeifei">
+            <input type="button" name="number-check" value="验证" id="nishishi">
+            <div id="anniu">必填，长度为4~16个字符</div>
+        </div>
+    </div>
+</body>
+</html>

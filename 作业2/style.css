@@ -1,0 +1,41 @@
+* {
+	margin:0;
+	padding: 0;
+}
+.papapa {
+	width:600px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 150px;
+	border: 2px solid; 
+}
+.ppp {
+	width: 450px;
+	height: 30px;
+	margin: 60px auto;
+}
+#feifeifei {
+	width: 280px;
+	height: 30px;
+	border-radius:4px;
+    font-size:20px; 
+    -moz-appearance: none;
+	border:2px solid #c8cccf;
+	margin-left: 15px;
+}
+#nishishi {
+	height: 37px;
+	width: 65px;
+    font-size:16px;
+    -moz-appearance: none;
+	border-radius:2px;
+	border:2px solid #c8cccf;
+	background-color:#2F76B6; 
+	color:white;
+	margin-left: 20px;
+}
+#anniu {
+	color: #c8cccf;
+	font-size: 15px;
+	margin-left: 60px;
+}

@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#lululu {
+	width:500px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px solid; 
+}
+#papapa {
+	width: 450px;
+	height: 30px;
+	margin: 60px auto;
+}
+#feifeifei {
+	width: 300px;
+	height: 35px;
+	-web-kit-appearance:none;
+    -moz-appearance: none;
+    font-size:20px;
+	border-radius:4px;
+	border:1px solid #c8cccf;
+	color:#6a6f77;
+	margin-left: 20px;
+}
+#number-adj {
+	height: 35px;
+	width: 60px;
+	-web-kit-appearance:none;
+    -moz-appearance: none;
+    font-size:16px;
+	border-radius:4px;
+	border:1px solid #c8cccf;
+	background-color:#2F76B6; 
+	color:white;
+	margin-left: 20px;
+}
