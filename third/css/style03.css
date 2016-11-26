@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.top {
+	height: 66px;
+	/* width: 1933px; */
+	width: 100%;
+	background-color: #000;
+}
+.top_logo {
+	height: 33px;
+	width: 214px;
+	position: relative;
+	padding-left: 18px;
+	padding-top: 16px;
+}
+.mid_top {
+	height: 880px;
+	width: 100%;
+	position: relative;
+	background-image: url(../image/p2.jpg);
+	background-size: 100%;    /*不这样图片就会变成一块一块的*/
+	position: relative;
+}
+.word-logo {
+	width: 390px;
+	height: 102px;
+	margin: 0 auto;
+	background-image: url(../image/p23.png);
+	position: relative;
+	top: 60px;
+}
+.big {
+	width: 1190px;
+	height: 219px;
+	/*background-color: red;	*/
+	margin:0 auto;
+	position: relative;
+	top:140px;
+}
+.img1 {
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	background-image: url(../image/pn1.png);
+	position: relative;
+	float: left;
+}
+.img1-hover {
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	background-color: black;
+	opacity: 0.5;
+}
+.t1 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	margin-top: -139px;
+}
+.t2 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin-top: 21px;
+}
+.img2 {
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	background-image: url(../image/p22.png);
+	position: relative;
+	float: left;
+	margin-left: 20px;
+
+}
+.img3 {
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	background-image: url(../image/p32.png);
+	position: relative;
+	float: left;
+	margin-left: 20px;
+
+}
+.img4 {
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	background-image: url(../image/p43.png);
+	position: relative;
+	float: left;
+	margin-left: 20px;
+
+}
+.img5 {
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	background-image: url(../image/p12.png);
+	position: relative;
+	float: left;
+	margin-left: 20px;
+
+}
+.g1 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	margin-top: -139px;
+}
+.g2 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin-top: 21px;
+}
+.mid_logo1 {
+	margin: 0px auto;
+	height: 104px;
+	width: 377px;
+	position: relative;
+	padding-top: 68px;
+	padding-left: 755px;
+}
+.index_bottom {
+	width: 100%;
+	height: 254px;
+}
+.pic {
+	width: 377px;
+	height: 106px;
+	position: relative;
+	padding-left: 764px;
+	padding-top: 49px;
+	margin: 0px auto;
+}
+.Introduction {
+	height: 94px;
+	width: 916px;
+	margin: 0px auto;
+}
+.sentence {
+	font-size: 19px;
+	color: #9E9797;
+	line-height: 31px;
+	text-indent: 2em;
+	text-align: left;
+
+}
+.group-info {
+	height: 584px;
+	width: 965px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.index-left {
+	width: 397px;
+	height: 580px;
+	float: left;
+}
+.pic2 {
+	/*padding-top: 56px;
+	padding-left: 510px;*/
+	width: 395px;
+	height: 256px;
+}
+.index-left p {
+	height: 1.4em;
+	line-height: 1.5em;
+	color: #979797;
+	font-size: 17px;
+/*	padding-left: 510px;
+	padding-top: 14px;*/
+}
+.index-right {
+	width: 377px;
+	/*padding-top: 56px;*/
+	float: right;
+
+}
+.input {
+	width: 382px;
+	height: 80px;
+}
+.name {
+	height: 34px;
+	width: 380px;
+	border: 1px solid #bfbfbf;
+	margin-top: 6px;
+}
+.mail {
+	height: 35px;
+	width: 380px;
+	border: 1px solid #bfbfbf;
+	margin-top: 5px;
+}
+.telephone {
+	height: 35px;
+	width: 380px;
+	border: 1px solid #bfbfbf;
+	margin-top: 5px;
+}
+.text {
+	width: 380px;
+	height: 170px;
+	border: 1px solid #bfbfbf;
+	margin-top: 5px;
+}
+span {
+	color: red;
+}
+.index-right p{
+	/*display: block;*/
+    height: 1.5em;
+    line-height: 1.5em;
+    font-size: 18px;
+    color: #979797;
+}
+.submit {
+	display: block;
+	width: 172px;
+	height: 50px;
+	background-color: #f9991b;
+	color: white;
+	font-size: 18px;
+	line-height: 52px;
+	margin: 0 auto;
+	border: none;
+	margin-top: 150px;
+}
+.friendship {
+	width: 100%;
+	height: 210px;
+	background-color: #282828;
+}
+.link {
+	width: 925px;
+	height: 221px;
+	margin: 0 auto;
+}
+.lianjie {
+	font-size: 25px;
+	color: white;
+	position: relative;
+	top: 42px;
+}
+.all-link {
+	margin-top: 50px;
+	margin-left: 0px;
+}
+.all-link a {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+    top:30px;
+}
+.all-link a:hover {
+	text-decoration: underline;
+	color: white;
+} 
+.down {
+	text-align: center;
+    font-size: 14px;
+    color: #989898;
+    margin-top: 30px;
+}
